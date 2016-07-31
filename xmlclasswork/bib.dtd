@@ -1,0 +1,6 @@
+
+<!ELEMENT last (#PCDATA)>
+<!ELEMENT first (#PCDATA)>
+<!ELEMENT affiliation (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT price (#PCDATA)>

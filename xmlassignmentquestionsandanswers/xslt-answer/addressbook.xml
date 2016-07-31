@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="addressbook.xsl"?>
+
+<addressBook>
+  <entry id="1">
+    <name>Wayne</name>
+    <address>Room 4/536</address>
+    <email>brookes@it.uts.edu.au</email>
+    <workphone>1872</workphone>
+    <birthday>2001-01-01</birthday>
+  </entry>
+
+  <entry id="2">
+    <name>Maolin</name>
+    <address>Room 4/520</address>
+    <email>maolin@it.uts.edu.au</email>
+    <workphone>1858</workphone>
+    <birthday>2001-01-01</birthday>
+  </entry>
+  
+</addressBook>

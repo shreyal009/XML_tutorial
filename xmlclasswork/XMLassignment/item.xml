@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="item.xsd" category="FM">
+  <Description>Widget</Description>
+  <Quantity>10</Quantity>
+  <UnitPrice>1.04</UnitPrice>
+  <ItemID>A1234</ItemID>
+</Item>
+

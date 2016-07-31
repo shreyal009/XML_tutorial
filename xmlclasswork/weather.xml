@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE weather [
+<!ELEMENT weather (weatherReading)>
+<!ELEMENT weatherReading (date,stationID,address,temperature,rainfall,humity)>
+<!ELEMENT date (month,day,year)>
+<!ELEMENT  month (#PCDATA)>
+<!ELEMENT  day (#PCDATA)>
+<!ELEMENT  year (#PCDATA)>
+<!ELEMENT  stationID (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ENTITY DEPT "India Metrological Department, shivajinagar,  pune-5">
+<!ELEMENT temperature (#PCDATA)>
+<!ELEMENT rainfall (gloss)>
+<!ELEMENT humidity (#PCDATA)>
+]>
+<weather>
+<weatherReading>
+<date><month>3</month><day>4</day><year>2002</year></date>
+<stationID>GNV</stationID>
+<address> &DEPT; </address>
+<temperature>28.0</temperature>
+<rainfall>0</rainfall>
+<humidity>50</humidity>
+</weatherReading>
+</weather>
+
+

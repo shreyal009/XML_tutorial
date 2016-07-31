@@ -1,0 +1,16 @@
+
+<!DOCTYPE automobile [
+   <!ENTITY header "Car Details">
+   <!ELEMENT make (#PCDATA)>
+   <!ELEMENT model (#PCDATA)>
+   <!ATTLIST model doors (two | four) #required>
+   <!ELEMENT year (#PCDATA)>
+   <!ELEMENT engine (#PCDATA)>
+   <!ATTLIST engine transmission (manual | automatic) #required>
+]>
+<automobile>
+	<make>&header;</make>
+	<model doors="four">Audi</model>
+	<year>2014</year>
+	<engine transmission="manual">8908C</engine>
+</automobile>

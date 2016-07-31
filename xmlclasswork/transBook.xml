@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE phraseBook [
+<!ELEMENT pharseBook (section)>
+<!ELEMENT section (senctionTitle,pharseGroup)>
+<!ELEMENT  sectionTitle (#PCDATA)>
+<!ELEMENT phraseGroup (engPhrase,translitPharse,tarLangPhrase)+>
+<!ELEMENT  tarLangPhrase (#PCDATA)>
+<!ELEMENT translitPhrase (gloss)*>
+<!ELEMENT gloss (#PCDATA)>
+<!ELEMENT engPhrase (gloss)>
+<!ELEMENT gloss (#PCDATA)>
+]>
+<phraseBook>
+<section>
+<sectionTitle>English literature</sectionTitle>
+<phraseGroup>
+<engPhrase>
+<gloss>hello</gloss>
+</engPhrase>
+<translitPhrase>
+<gloss>hey</gloss>
+</translitPhrase>
+<tarLangPhrase>English</tarLangPhrase>
+</phraseGroup>
+</section>
+</phraseBook>
+
+
+
+
+
+

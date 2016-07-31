@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE BookList
+[
+<!ELEMENT BookList (BookInfo+)>
+<!ELEMENT BookInfo (BookName|ISBN)?>
+<!ELEMENT BookName (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!ATTLIST BookInfo BookID ID #IMPLIED>
+]>
+
+<BookList>
+	<BookInfo BookID="654">
+		<BookName>php Programming</BookName>
+		<ISBN>ABC1234CBA</ISBN>
+	</BookInfo>
+	<BookInfo BookID="987">
+		<BookName>COMPUTER TECHNIOLOGY</BookName>
+		<ISBN>AFD4433D54SF</ISBN>
+	</BookInfo>
+</BookList>

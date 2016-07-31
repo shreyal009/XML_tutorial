@@ -1,0 +1,13 @@
+<!ELEMENT Emp (ename,Children+,Skill+)>
+<!ELEMENT ename (#PCDATA)>
+<!ELEMENT Children (name,Birthday)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT Birthday (day,month,year_)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT year_ (#PCDATA)>
+<!ELEMENT Skill (type,Exam)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT Exam (year,city)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT city (#PCDATA)>

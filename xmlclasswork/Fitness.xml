@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="FitnessCenter.xsl"?>
+<FitnessCenter>
+<Member level="platinum">
+<Name>Preeti</Name>
+<Phone type="home">7839123555</Phone>
+<Phone type="work">8839123555</Phone>
+<FavoriteColor>green</FavoriteColor>
+</Member>
+<Member level="gold">
+<Name>Arti</Name>
+<Phone type="home">0000023555</Phone>
+<Phone type="work">1111123555</Phone>
+<FavoriteColor>cyan</FavoriteColor>
+</Member>
+</FitnessCenter>

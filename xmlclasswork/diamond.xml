@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE diamond [
+<!ELEMENT diamond (gem,location)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT gen (name,carats,color,clarity,cut,cost,reserved)>
+<!ELEMENT  name (#PCDATA)>
+<!ELEMENT carats (#PCDATA)>
+<!ELEMENT clarity (#PCDATA)>
+<!ELEMENT cut (#PCDATA)>
+<!ELEMENT cost (#PCDATA)>
+<!ELEMENT reserved (EMPTY)>
+]>
+<diamond>
+<location>location of diamond</location>
+<gem>
+<name>silver black</name>
+<carats>12</carats>
+<color>silver</color>
+<clarity>10</clarity>
+<cut>10</cut>
+<cost>50000</cost>
+<reserved></reserved>
+</gem>
+</diamond>

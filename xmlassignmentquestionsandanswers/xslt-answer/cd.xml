@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="cd.xsl" type="text/xsl" ?>
+<CDcollection>
+<CD>
+  <composer>Johannes Brahms</composer>
+  <soloist>Emil Gilels</soloist>
+  <orchestra>Berlin Philharmonic</orchestra>
+  <conductor>Eugen Jochum</conductor>
+  <date>1972</date>
+  <performance>
+    <composition>Piano Concerto No. 1</composition>
+  </performance>
+  <publisher>Deutsche Grammophon</publisher>
+  <number>419159-2</number>
+</CD>
+
+<CD>
+  <composer>Johannes Brahms</composer>
+  <soloist>Emil Gilels</soloist>
+  <performance>
+    <composition>Piano Concerto No. 2</composition>
+    <orchestra>Berlin Philharmonic</orchestra>
+    <conductor>Eugen Jochum</conductor>
+    <date>1972</date>
+  </performance>
+  <performance>
+    <composition>Fantasias Op. 116</composition>
+    <date>1976</date>
+  </performance>
+  <publisher>Deutsche Grammophon</publisher>
+  <number>419160-2</number>
+</CD>
+
+<CD>
+  <soloist>Martha Argerich</soloist>
+  <orchestra>London Symphony Orchestra</orchestra>
+  <conductor>Claudio Abbado</conductor>
+  <date>1968</date>
+  <performance>
+    <composer>Frederic Chopin</composer>
+    <composition>Piano Concerto No. 1</composition>
+  </performance>
+  <performance>
+    <composer>Franz Liszt</composer>
+    <composition>Piano Concerto No. 1</composition>
+  </performance>
+  <publisher>Deutsche Grammophon</publisher>
+  <number>449719-2</number>
+</CD>
+
+<CD>
+  <composer>Antonin Dvorak</composer>
+  <performance>
+    <composition>Symphony No. 9</composition>
+    <orchestra>Vienna Philharmonic</orchestra>
+    <conductor>Kirill Kondrashin</conductor>
+    <date>1980</date>
+  </performance>
+  <performance>
+    <composition>American Suite</composition>
+    <orchestra>Royal Philharmonic</orchestra>
+    <conductor>Antal Dorati</conductor>
+    <date>1984</date>
+  </performance>
+  <publisher>Decca</publisher>
+  <number>430702-2</number>
+</CD>
+</CDcollection>

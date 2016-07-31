@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:group name="empname">
+<xs:sequence>
+<xs:element name="FRISTNAME" type="xs:string"/>
+<xs:element name="LASTNAME" type="xs:string"/>
+</xs:sequence>
+</xs:group>
+<xs:element name="EMPLOYEE" type="emptype"/>
+<xs:complexType name="emptype">
+<xs:sequence>
+<xs:group ref="empname"/>
+<xs:element name="ADDRESS" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>

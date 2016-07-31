@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE juicers
+[
+<!ELEMENT juicers (juicer)*>
+<!ELEMENT juicer (name, image, description, warranty, weight, cost, retailer)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT warranty (#PCDATA)>
+<!ELEMENT weight (#PCDATA)>
+<!ELEMENT cost (#PCDATA)>
+<!ELEMENT retailer (#PCDATA)>
+]>
+
+<juicers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Juicer7.xsd">
+	<juicer>
+		<name>RealFresh</name>
+		<image>realfresh.jpg</image>
+		<description>Power consumption less</description>
+		<warranty>1 years</warranty>
+		<weight>2kg</weight>
+		<cost>3000</cost>
+		<retailer>Sham_Electronics</retailer>
+	</juicer>
+</juicers>

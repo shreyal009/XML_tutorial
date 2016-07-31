@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Book xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="second.xsd">
+<title>XML</title>
+<price>200</price>
+<noofpages>500</noofpages>
+<edition>1</edition>
+</Book>

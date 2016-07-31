@@ -1,0 +1,19 @@
+﻿<hr:employee
+xmlns:hr="http://www.superduperbigco.com/human_resources">
+<hr:name>
+	<hr:lastname>Kelly</hr:lastname>
+	<hr:firstname>Grace</hr:firstname>
+</hr:name>
+<hr:hiredate>october 15,2005</hr:hiredate>
+	<hr:comment>Grade II can be given</hr:comment>
+<boss:comment xmlns:boss="http://www.superduperbigco.com/big_boss"  boss:date="10/15/2006">
+Needs much supervision
+</boss:comment>
+<hr:projects>
+<hr:project>
+<hr:product>printer</hr:product>
+<hr:id>111</hr:id>
+<hr:price>$111.00</hr:price>
+</hr:project>
+</hr:projects>
+</hr:employee>

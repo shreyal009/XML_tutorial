@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lecture SYSTEM "lecture.dtd">
+<lecture>
+<name>XML and Applications</name>
+<description> XML is the principle format for structural data, traditionally used in applications related to written word, but starting from the end of XX century more and more applied for purely technical purposes, like web services. Virtually every programmer/IT specialist sooner or later will deal with one of many standards and technologies that have grown around XML. This course allows a student to effectively learn XML and main related technologies and presents an overview of more sophisticated applications.
+</description>
+<program>
+<item> Motivation for XML standard (“two faces of XML”), syntax and structure of XML document, namespaces.</item>
+<item> Defining structure of XML documents (defining “XML applications”): DTD, XML Schema, Relax NG. </item>
+<item> XML in programming by example of Java platform: DOM, SAX, StAX, JAXB, interfaces for XML-related standards. </item>
+<item> Web services and electronic data interchange: idea of web services, SOAP, WSDL, REST-ful services, other structural data formats. Lab: basics of web services development in Java (JAX-WS, JAX-RS). </item>
+<item> Processing XML documents: XPath, XSLT, XQuery. </item>
+<item> Presentation of XML documents: style sheets (CSS and XSL), XSL-FO standard, XML in DTP tools. </item>
+<item> XML in databases, „XML databases”, XForms and XRX architecture. </item>
+</program>
+<teacher degree="MSc">
+<first-name>Patryk</first-name>
+<last-name>Czarnik</last-name>
+</teacher>
+<registered-students>										
+<student>
+<first-name>Adam</first-name>
+<last-name>Abacki</last-name>
+<birth-date>1990-03-13</birth-date>
+<identification>
+<PESEL>90031312345</PESEL>
+</identification>
+</student>
+<student>
+<first-name>Ala</first-name>
+<last-name>Kotowska</last-name>
+<birth-date>1991-01-31</birth-date>
+<identification>
+<PESEL>91013112345</PESEL>
+</identification>
+</student>
+<student>
+<first-name>Henry</first-name>
+<first-name>Walton</first-name>
+<first-name>Junior</first-name>
+<last-name>Jones</last-name>
+<birth-date>1905-05-05</birth-date>
+<identification>
+<passport-nr>1234567890</passport-nr>
+<country>USA</country>
+</identification>
+</student>
+</registered-students>
+</lecture>

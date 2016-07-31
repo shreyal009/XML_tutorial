@@ -1,0 +1,9 @@
+<xsd:schema  xmlns:xsd=“http://www.w3.org/2001/XMLSchema”>
+<xsd:simpleType name="deptType">
+  <xsd:restriction base="xsd:string">
+    <xsd:enumeration value="Sales"/>
+    <xsd:enumeration value="Development"/>
+    <xsd:enumeration value="Service"/>
+  </xsd:restriction>
+</xsd:simpleType>
+</xsd:schema> 

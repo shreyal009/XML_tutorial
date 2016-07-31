@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE Mountains
+[
+<!ELEMENT Mountains (Mountains)+>
+<!ELEMENT Mountain (Collection)*>
+<!ELEMENT Collection (Name)*>
+<!ATTLIST Mountain country NMTOKENS #REQUIRED>
+<!ELEMENT Name (#PCDATA)>
+]>
+<Mountains>
+<Mountain country="India">
+<Collection>
+<Name>Himalayas</Name>
+</Collection>
+</Mountain>
+<Mountain country="Australia">
+<Collection>
+<Name>Lis</Name>
+</Collection>
+<Collection>
+<Name>Efdsf</Name>
+</Collection>
+</Mountain>
+</Mountains>

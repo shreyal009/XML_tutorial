@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE phraseBook [
+<!ELEMENT phraseBook (Section)>
+<!ELEMENT Section (sectionTitle,phraseGroup+)>
+<!ELEMENT sectionTitle (#PCDATA)>
+<!ELEMENT phraseGroup (engPhrase,translitPhrase,targLangPhrase)>
+<!ELEMENT engPhrase (#PCDATA)>
+<!ELEMENT translitPhrase (gloss*)>
+<!ELEMENT gloss (#PCDATA)>
+<!ELEMENT targLangPhrase (gloss*)>
+<!ELEMENT gloss (#PCDATA)>
+]>
+<phraseBook>
+<Section>
+<sectionTitle>English</sectionTitle>
+<phraseGroup>
+<engPhrase>Old is Gold</engPhrase>
+<translitPhrase>
+<gloss>Old=ancient</gloss>
+<gloss>Gold=metal</gloss>
+</translitPhrase>
+<targLangPhrase>
+<gloss>Old=English</gloss>
+<gloss>Gold=English</gloss>
+</targLangPhrase>
+</phraseGroup>
+<phraseGroup>
+<engPhrase>Diamonds are forever</engPhrase>
+<translitPhrase>
+<gloss>Diamonds=carbon</gloss>
+<gloss>forever=eternity</gloss>
+</translitPhrase>
+<targLangPhrase>
+<gloss>English</gloss>
+</targLangPhrase>
+</phraseGroup>
+</Section>
+</phraseBook>

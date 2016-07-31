@@ -1,0 +1,15 @@
+<!ENTITY % draft "INCLUDE">
+<!ENTITY % final "IGNORE">
+
+<![%draft;[
+  <!ELEMENT book (title,author,summary)>
+]]>
+
+<![%final;[
+  <!ELEMENT book (comments*,title,author,summary)>
+]]>
+
+<!ELEMENT comments (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT summary (#PCDATA)>

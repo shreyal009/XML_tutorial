@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Emp
+[
+<!ELEMENT Emp (ename,Children+,Skills+)>
+<!ELEMENT ename (#PCDATA)>
+<!ELEMENT Children (name,Birthday)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT Birthday (day,month,year)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT Skills (type,Exams+)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT Exams (year,city)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+]>
+
+<Emp>
+	<ename>aman</ename>
+	<Children>
+		<name>ami</name>
+		<Birthday>
+			<day>21</day>
+			<month>2</month>
+			<year>1994</year>
+		</Birthday>
+	</Children>
+	<Children>
+		<name>meera</name>
+		<Birthday>
+			<day>10</day>
+			<month>5</month>
+			<year>1993</year>
+		</Birthday>
+	</Children>
+	<Skills>
+		<type>HR</type>
+		<Exams>
+			<year>2005</year>
+			<city>Pune</city>
+		</Exams>
+	</Skills>
+	<Skills>
+		<type>Marketing</type>
+		<Exams>
+			<year>2009</year>
+			<city>delhi</city>
+		</Exams>
+	</Skills>
+</Emp>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE document
+[
+<!ENTITY ELTP "Entry level training program">
+<!ELEMENT document (title,course)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT course (course_code,date)>
+<!ELEMENT course (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+]>
+<document>
+<title>&ELTP;</title>
+<course>
+<course_code>MSC-CA</course_code>
+<date>JAN 4,2016</date>
+</course>
+</document>

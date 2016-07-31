@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="Createxml.xsl"?>
+<ROWSET>
+<ROW>
+<ROWNUM>1</ROWNUM>
+<EMPNO>7839</EMPNO>
+<ENAME>KING</ENAME>
+</ROW>
+<ROW>
+<ROWNUM>2</ROWNUM>
+﻿<EMPNO>7788</EMPNO>
+<ENAME>SCOTT</ENAME>
+</ROW>
+</ROWSET>

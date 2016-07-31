@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE BookStore
+[
+<!ELEMENT BookStore (Book+,author,date,ISBN,publisher)>
+<!ELEMENT Book (Title)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT Date (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!ELEMENT Publisher (#PCDATA)>
+]>
+<BookStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="book.xsd">
+	<Book>
+		<Title>XML</Title>
+	</Book>
+	<Author>Jhones</Author>
+	<Date>24-2-1994</Date>
+	<ISBN>KDJSK12</ISBN>
+	<Publisher>Presmen</Publisher>
+</BookStore>

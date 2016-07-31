@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE notes
+[
+<!ELEMENT notes (to,from,heading,(body|title)+)>
+<!ELEMENT to (#PCDATA)>
+<!ATTLIST to color CDATA #IMPLIED language CDATA #FIXED "HINDI" year CDATA #REQUIRED>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+]>
+<notes>
+<to year="1994">TOVE</to>
+<from>Jani</from>
+<heading>Reminder</heading>
+<title>Don't forget me this weekend</title>
+</notes>
+
+

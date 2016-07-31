@@ -1,0 +1,22 @@
+
+<!ELEMENT lecture (name,description,program,teacher,registered-students)>
+<!ATTLIST lecture code CDATA #IMPLIED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT program (item)+>
+<!ELEMENT item (#PCDATA)>
+<!ELEMENT teacher (first-name+,last-name+)>
+<!ATTLIST teacher degree CDATA (Msc|PhD|Prof) #REQUIRED guest (yes|no) "no" #IMPLIED>
+<!ENTITY % personname '<!ENTITY y "first-name last-name">'>
+%personname;
+<!ELEMENT first-name (#PCDATA)>
+<!ELEMENT last-name (#PCDATA)>
+<!ELEMENT registered-students (student)+>
+<!ELEMENT student (first-name+,last-name,birth-date,identification)>
+<!ELEMENT birth-date (#PCDATA)>
+<!ELEMENT identification (PESEL,passport-nr,country)?>
+<!ELEMENT PESEL (#PCDATA)>
+<!ELEMENT passport-nr (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+
+

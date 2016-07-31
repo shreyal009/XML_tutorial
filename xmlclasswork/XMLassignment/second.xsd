@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="Book">
+<xs:complexType>
+	<xs:sequence>
+		<xs:element ref="title"/>
+		<xs:element ref="price"/>
+		<xs:element ref="noofpages"/>
+		<xs:element ref="edition"/>
+	</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+<xs:element name="title" type="xs:string"/>
+<xs:element name="price" type="xs:integer"/>
+<xs:element name="noofpages" type="xs:integer"/>
+<xs:element name="edition" type="xs:integer"/>
+
+</xs:schema>

@@ -1,0 +1,9 @@
+<!ELEMENT chapter (title,content,chapterno)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT content (paragraphs|poems)>
+<!ELEMENT poems (line)+>
+<!ELEMENT line (#PCDATA)>
+<!ELEMENT  paragraphs (index)>
+<!ELEMENT index (#PCDATA)>
+<!ELEMENT chapterno (#PCDATA)>
+

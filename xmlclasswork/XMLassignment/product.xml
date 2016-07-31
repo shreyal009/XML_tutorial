@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="product.xsd">
+<Product_Price Currency="$">2000</Product_Price>
+<Product_Price Currency="Rs">5000</Product_Price>
+</product>

@@ -1,0 +1,7 @@
+<xsd:schema  xmlns:xsd=“http://www.w3.org/2001/XMLSchema”>
+<xsd:simpleType name="empType">
+  <xsd:restriction base="xsd:int">
+    <xsd:minInclusive value="1000"/>
+    <xsd:maxExclusive value="10000"/>
+  </xsd:restriction>
+</xsd:simpleType>

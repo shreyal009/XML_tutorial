@@ -1,0 +1,25 @@
+<xs:element name="Message"> 
+  <xs:complexType> 
+    <xs:sequence> 
+      <xs:element name="DateSent" type="xs:date" /> 
+      <xs:element name="Sender" type="xs:string" /> 
+      <xs:element name="Content"> 
+        <xs:complexType> 
+          <xs:sequence> 
+            <xs:any /> 
+          </xs:sequence> 
+        </xs:complexType> 
+      </xs:element> 
+    </xs:sequence> 
+  </xs:complexType> 
+</xs:element>
+<xs: element name=AccountCreationRequest” type=”xs:string”>
+<xs: element name=AccountName” type=”xs:string”>
+<Message>
+ <DateSent>2000-01-12</DateSent>
+ <Sender>Admin</Sender>
+ <Content>
+    <AccountName>Fred</AccountName>
+   </Content>
+</Message>
+
